@@ -1,3 +1,7 @@
+---
+icon: file-contract
+---
+
 # Defining Custom Elements
 
 In our previous example, we started with a paragraph, but we never actually told Slate anything about the `paragraph` block type. We just let it use its internal default renderer, which uses a plain old `<div>`.

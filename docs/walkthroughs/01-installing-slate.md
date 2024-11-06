@@ -1,14 +1,18 @@
+---
+icon: hand-wave
+---
+
 # Installing Slate
 
 Slate is a monorepo divided up into multiple npm packages, so to install it you do:
 
-```text
+```
 yarn add slate slate-react
 ```
 
 You'll also need to be sure to install Slate's peer dependencies:
 
-```text
+```
 yarn add react react-dom
 ```
 
