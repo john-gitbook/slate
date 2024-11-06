@@ -4,17 +4,33 @@ icon: hand-wave
 
 # Installing Slate
 
+{% stepper %}
+{% step %}
+### Install slate
+
 Slate is a monorepo divided up into multiple npm packages, so to install it you do:
 
 ```
 yarn add slate slate-react
 ```
+{% endstep %}
+
+{% step %}
+### Add react
 
 You'll also need to be sure to install Slate's peer dependencies:
 
 ```
 yarn add react react-dom
 ```
+{% endstep %}
+{% endstepper %}
+
+
+
+
+
+
 
 _Note, if you'd rather use a pre-bundled version of Slate, you can `yarn add slate` and retrieve the bundled `dist/slate.js` file! Check out the_ [_Using the Bundled Source_](xx-using-the-bundled-source.md) _guide for more information._
 
