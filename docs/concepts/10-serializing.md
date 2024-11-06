@@ -16,7 +16,7 @@ const serialize = nodes => {
 }
 ```
 
-Here we're taking the children nodes of an `Editor` as a `nodes` argument, and returning a plaintext representation where each top-level node is separated by a single `\n` new line character.
+Here we're taking the children nodes of an `Editor` as a `nodes` argument, and returning a plaintext representation where each top-level node is separated by a single  new line character.
 
 For an input of:
 
@@ -39,7 +39,7 @@ const nodes = [
 
 You'd end up with:
 
-```text
+```
 An opening paragraph...
 A wise quote.
 A closing paragraph!
@@ -111,7 +111,7 @@ const editor = {
 }
 ```
 
-You'd receive back \(line breaks added for legibility\):
+You'd receive back (line breaks added for legibility):
 
 ```markup
 <p>An opening paragraph with a <a href="https://example.com">link</a> in it.</p>
@@ -140,7 +140,7 @@ const input = (
 )
 ```
 
-And the JSX feature of your compiler \(Babel, TypeScript, etc.\) would turn that `input` variable into:
+And the JSX feature of your compiler (Babel, TypeScript, etc.) would turn that `input` variable into:
 
 ```javascript
 const input = [
