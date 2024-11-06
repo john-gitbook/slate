@@ -4,6 +4,10 @@ icon: file-contract
 
 # Defining Custom Elements
 
+{% include "../.gitbook/includes/this-reusable-block-is-only....md" %}
+
+
+
 In our previous example, we started with a paragraph, but we never actually told Slate anything about the `paragraph` block type. We just let it use its internal default renderer, which uses a plain old `<div>`.
 
 But that's not all you can do. Slate lets you define any type of custom blocks you want, like block quotes, code blocks, list items, etc.

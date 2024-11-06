@@ -30,6 +30,10 @@ It can do this because all of its logic is implemented with a series of plugins,
 🤖 **Slate is currently in beta**. Its core API is usable now, but you might need to pull request fixes for advanced use cases. Some of its APIs are not "finalized" and will (breaking) change over time as we find better solutions.
 {% endhint %}
 
+{% include ".gitbook/includes/pro-please.md" %}
+
+{% include ".gitbook/includes/this-reusable-block-is-only....md" %}
+
 
 
 ## Why?
