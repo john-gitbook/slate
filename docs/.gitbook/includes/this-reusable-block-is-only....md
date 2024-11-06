@@ -3,5 +3,5 @@ title: This reusable block is only...
 ---
 
 {% hint style="warning" %}
-This reusable block is only available on a pro plan
+This reusable block is only available on a enterprise plan
 {% endhint %}
